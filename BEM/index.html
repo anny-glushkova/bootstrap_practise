@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="header__container">
+                <div class="logo">
+                    <a href="#" class="logo_img">
+                        <img src="/assets/logo.svg" alt="logo">
+                    </a>
+                    <div class="title logo__title">ВИАРУШКА</div>
+                </div>
+
+                <button class="button">
+                    <div class="button__header">
+                        <div class="button__text button_icon">Корзина</div>
+                    </div>
+                </button>
+            </div>
+
+        </header>
+        <main>
+            <h1 class="title main-title">Возможности</h1>
+            <div class="possibilites">
+                <div class="possibilites__items">
+                    <div class="possibilites__card">
+                        <img src="assets/without_wires.png" class="possibilites__img alt=" without_wires">
+                        <div class="possibilites__text">
+                            <h2 class="title possibilites__title">Без проводов</h2>
+                            <div class="possibilites__description">Шлем работает без проводов. Не нужен ни компьютер, ни
+                                внешнее питание, ни большое помещение, чтобы расставить трекеры.</div>
+                        </div>
+                    </div>
+                    <div class="possibilites__card">
+                        <img src="assets/work.png" class="possibilites__img alt=" 10_hours_work">
+                        <div class="possibilites__text">
+                            <h2 class="title possibilites__title">До 10 часов работы</h2>
+                            <div class="possibilites__description">Несмотря на компактность и производительность, шлем
+                                может
+                                работать до 10 часов — даже, если вы играете в самые ресурсоемкие игры.</div>
+                        </div>
+                    </div>
+                    <div class="possibilites__card">
+                        <img src="assets/without__comp.png" class="possibilites__img alt=" without_computer">
+                        <div class="possibilites__text">
+                            <h2 class="title possibilites__title">Без компьютера</h2>
+                            <div class="possibilites__description">Современным VR-шлемам нужен мощный компьютер, чтобы
+                                запускать
+                                игры. Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.</div>
+                        </div>
+                    </div>
+                    <div class="possibilites__card_no-img">
+                        <div class="possibilites__text">
+                            <h2 class="title possibilites__title">Сотни игр</h2>
+                            <div class="possibilites__description">Уже сейчас вам доступно более сотни игр: от
+                                высокобюджетных ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще
+                                больше.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="possibilites__card_no-img">
+                        <div class="possibilites__text">
+                            <h2 class="title possibilites__title">Почти даром</h2>
+                            <div class="possibilites__description">По сравнению с другими VR-шлемами наш стоит гораздо
+                                меньше. И вы существенно экономите на мощном компьютере.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="possibilites__form">
+                        <form action="get">
+                            <h2 class="title title_form">Новости</h2>
+                            <input type="text" class="form__email-field" placeholder="Эл.почта"></input>
+                            <button class="button button__form button__text">Подписаться</button>
+                        </form>
+                    </div>
+                </div>
+        </main>
+        <footer>
+            <nav>
+                <ul class="menu menu__footer possibilites__text">
+                    <li><a href="#" class="menu__element">Возможности</a></li>
+                    <li><a href="#" class="menu__element">Где купить</a></li>
+                    <li><a href="#" class="menu__element">Доставка</a></li>
+                    <li><a href="#" class="menu__element">Помощь</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>
